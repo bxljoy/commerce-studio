@@ -1,0 +1,4 @@
+# Sanity Studio runs on Vite, which needs esbuild's platform binary,
+# so its install script must be allowed to run.
+allowBuilds:
+  esbuild: true
